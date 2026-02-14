@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Love-At First Sight -- Log In</title>
+<link rel="icon" href="Images/Logos/Logo 5.png">
+<link rel="stylesheet" type="text/css" href="Login In Css.css">
+</head>
+
+<body>
+	<div class="back1">
+			
+		<form action="/action_page.php" style="border:1px solid #ccc">
+  			<div class="container">
+   				<h1>Welcome Back</h1>
+   				<p>Please Log In<br>Don't Have A Account ? <a href="Sign Up.html">Sign Up</a></p>
+				<img src="Images/Logos/Logo Main.png" class="logo" alt="Logo">
+				
+  				<hr>
+				
+				<label for="email"><b>Email</b></label><br>
+  				<input type="text" placeholder="Enter Email" name="email" class="main" required><br>
+
+   				<label for="psw"><b>Password</b></label><br>
+  				<input type="password" placeholder="Enter Password" name="psw" class="main" required><br>
+				
+				<div class="clearfix">
+					<button type="submit" onclick="LogIN()" class="signupbtn">
+						<a href="Him.html">Log In</a>
+					</button>
+					
+					<button type="button" class="homebtn"><a href="MAIN PAGE.html">Home</a></button>
+					
+					<script>
+						function LogIN() {
+  							alert("You Are Been Loged Into Your Account");
+							}
+					</script>
+					
+    			</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

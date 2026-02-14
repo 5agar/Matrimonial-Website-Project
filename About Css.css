@@ -1,0 +1,88 @@
+@charset "utf-8";
+body{
+	background-image: url("Images/Couple Images/Couple 5.jpg");
+	background-size: cover;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.menubarlist{
+	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0px;
+    overflow: hidden;
+}
+.menubarimg{
+	width: 140px;
+	height: 140px;
+	margin-left: 15px;
+	margin-top: -75px;
+}
+.listitem{
+	float: right;
+    display:block;
+    text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	text-decoration: none;
+}
+.listitem-left{
+	float: left;
+    display:block;
+    text-align: center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 32px;
+	color: black;
+	text-decoration: none;
+	margin-left: 45%;
+	margin-top: 15px;
+	padding: 15px 16px;
+	font-weight: bold;
+}
+.listitem a{
+	color: black;
+	display:block;
+    text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	text-decoration: none;
+	margin: 15px 15px 0px;
+	padding: 15px 16px;
+	border-bottom: 3px solid #134C88;
+	border-top: 3px solid #134C88;
+}
+.listitem :hover{
+	border-radius: 5px;
+	color: white;
+	background-color: #134C88;
+}
+.founder{
+	width: 98.5%;
+	height: 400px;
+	padding: 10px;
+	margin-top: 60px;
+}
+.founder-image{
+	float: left;
+	width: 32%;
+	height: 350px;
+	margin-left: 10px;
+	display: inline;
+	border: 2px solid #000000;
+	margin-right: 40px;
+}
+.founder-heading{
+	color: black;
+	font-size: 40px;
+	display: inline;
+	font-weight: bold;
+}
+.founder-text{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+.founder-name{ 
+	color: black;
+	font-size: 17px;
+	margin-left: 100px;
+	margin-top: -35px;
+}

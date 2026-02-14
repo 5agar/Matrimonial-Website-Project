@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Love-At First Sight -- Sign Up</title>
+<link rel="icon" href="Images/Logos/Logo 5.png">
+<link rel="stylesheet" type="text/css" href="Sign Up Css.css">
+</head>
+
+<body>
+	<div class="back1">
+			
+		<form action="/action_page.php" style="border:1px solid #ccc" onSubmit = "return checkPassword(this)">
+  			<div class="container">
+   				<h1>Get Started With A Free Account</h1>
+   				<p>Find Your Better Half. Build A Relationship.<br>Do It All With Our Assistance. Already Have An Account ? 
+					<a href="Login In.html">Log In</a></p>
+				<img src="Images/Logos/Logo Main.png" class="logo" alt="Logo">
+				
+  				<hr>
+
+  				<label for="email"><b>Email</b></label><br>
+  				<input type="text" placeholder="Enter Email" name="email" class="main" required><br>
+
+   				<label for="psw"><b>Password</b></label><br>
+  				<input type="password" placeholder="Enter Password" name="password1" class="main" required><br>
+
+   				<label for="psw-repeat"><b>Confirm Password</b></label><br>
+   				<input type="password" placeholder="Repeat Password" name="password2" class ="main" required><br>
+
+  				<hr>
+    
+			    <label for="name"><b>Your Name</b></label><br>
+ 				<input type="text" placeholder="First Name" name="fname" class="name" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  				<input type="text" placeholder="Last Name" name="lname" class="name" required><br>
+				
+				<label for="mobile"><b>Mobile Number</b></label><br>
+    			<input type="number" placeholder="Your Mobile Number ( Max 10 Character )" name="mobile" class="main" required><br>
+    
+   				<label for="dob"><b>Date Of Birth</b></label><br>
+    			<input type="number" placeholder="DD" name="date" class="dob" required>
+    			<input type="number" placeholder="MM" name="month" class="dob" required>
+    			<input type="number" placeholder="YYYY" name="year" class="dob" required>
+    			<br>
+				
+				<label for="gender"><b>Gender</b></label><br><br>
+				<input type="radio" name="gender" value="male"><span class="text"> Male</span><br>
+				<input type="radio" name="gender" value="female"><span class="text"> Female</span><br>
+				<input type="radio" name="gender" value="other"><span class="text"> Other</span><br>
+				<br>
+				
+				<label for="hobbies"><b>Hobbies</b></label><br><br>
+				<input type="checkbox" name="hobbie1" value="read"><span class="text"> Reading</span><br>
+				<input type="checkbox" name="hobbie2" value="sing"><span class="text"> Singing</span><br>
+				<input type="checkbox" name="hobbie3" value="paint"><span class="text"> Painting</span><br>
+				<input type="checkbox" name="hobbie4" value="dance"><span class="text"> Dancing</span><br>
+				<input type="checkbox" name="hobbie5" value="sport"><span class="text"> Sports</span><br>
+				<input type="checkbox" name="hobbie6" value="cook"><span class="text"> Cooking</span><br>
+				<input type="checkbox" name="hobbie7" value="race"><span class="text"> Racing</span><br>
+				<input type="checkbox" name="hobbie8" value="blog"><span class="text"> Blogging</span><br>
+				<input type="checkbox" name="hobbie9" value="travel"><span class="text"> Traveling</span><br>
+				<input type="checkbox" name="hobbie10" value="photo"><span class="text"> Photography</span><br>
+				<br>
+				
+				<label for="bio"><b>Enter Your Bio</b></label><br>
+				<textarea rows="4" cols="50" name="comment" form="usrform" class="main" maxlength="1024" placeholder="Enter Your Bio Here...."></textarea><br>
+
+				
+				<label for="religion"><b>Religion</b></label><br>
+  				<input type="text" placeholder="Your Religion" name="religion" class="main"><br>
+				
+				<label for="mothertounge"><b>Mother Tounge</b></label><br>
+  				<input type="text" placeholder="Your Mother Tounge" name="lang" class="main"><br>
+				
+				<label for="place"><b>Where Do You Live ?</b></label><br>
+  				<input type="text" placeholder="Which Country" name="place" class="main"><br>
+				
+				<hr>
+				
+    			<label>
+    				<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    			</label>
+    
+    			<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms &amp; Privacy</a>.</p>
+
+    			<div class="clearfix">
+					<button type="submit" onclick="signUP()" class="signupbtn">
+						<a href="Him.html">Sign Up</a>
+					</button>
+					
+					<button type="button" class="homebtn"><a href="Main Page.html">Home</a></button>
+					
+					<script>
+						function signUP() {
+  							alert("Your Account Has Been Created");
+							}
+					</script>
+    			</div>
+  			</div>
+		</form>
+			
+	</div>
+</body>
+</html>

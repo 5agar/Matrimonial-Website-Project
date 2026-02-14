@@ -1,0 +1,121 @@
+@charset "utf-8";
+body{
+	background-image: url("Images/Background 2.jpg");
+	background-size: cover;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.back1{
+	background-color: white;
+	opacity: 0.9;
+	padding: 20px 30px;
+	width: 50%;
+	margin-left: 23%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.logo{
+	width: 125px;
+	height: 125px;
+	float: right;
+	margin-top: -135px;
+}
+.main{
+  width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+.name{
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+.dob{
+  width: 15%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+.dob:focus{
+  background-color: #ddd;
+  outline: none;
+}
+.name:focus{
+  background-color: #ddd;
+  outline: none;
+}
+.main:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1;
+}
+
+button:hover {
+  opacity:1;
+}
+/* Float cancel and signup buttons and add an equal width */
+.signupbtn {
+  float: left;
+  width: 25%;
+}
+.signupbtn a {
+	color: white;
+	text-decoration: none;
+}
+.homebtn {
+    padding: 14px 20px;
+	width: 15%;
+    background-color: #134C88;
+	float: right;
+}
+.homebtn a{
+	color: white;
+	text-decoration: none;
+}
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+.text{
+	font-size: 20px;
+}
